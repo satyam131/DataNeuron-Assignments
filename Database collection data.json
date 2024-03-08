@@ -1,0 +1,27 @@
+COLLECTION OF DATABASE
+-------------------------------------------------
+
+[{
+  "_id": {
+    "$oid": "65eb0018c0208639545741c9"
+  },
+  "id": "component1",
+  "__v": 0,
+  "data": " from Component 1 :)"
+},
+{
+  "_id": {
+    "$oid": "65eb002fc0208639545741dd"
+  },
+  "id": "component2",
+  "__v": 0,
+  "data": " from Component 2 :)"
+},
+{
+  "_id": {
+    "$oid": "65eb0162c0208639545742a2"
+  },
+  "id": "component3",
+  "__v": 0,
+  "data": "Hello, from Component 3 :)"
+}]
