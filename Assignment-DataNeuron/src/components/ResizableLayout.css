@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.resizable-component {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fbfea1;
+}
+
+.component {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resize-handle {
+  width: 10px;
+  height: 10px;
+  background-color: #2196F3;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: se-resize;
+}
+
+.buttons {
+  margin-top: 10px;
+
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #65e46a;
+  border: none;
+  border-radius: 9px;
+}
+
+.buttons input {
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.clickButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 47%;
+  margin-top: 10px;
+}
+
+.clickButton:hover {
+  background-color: #45a049;
+}
